@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,8 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+    min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +37,37 @@
     transform: rotate(360deg);
   }
 }
+
+.site-layout-content {
+  min-height: 100vh;
+  padding: 24px;
+  background: #fff;
+  min-height: 100vh
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+  
+
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.ant-typography {
+  color: white;
+  overflow-wrap: break-word;
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
